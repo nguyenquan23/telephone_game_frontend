@@ -1,0 +1,159 @@
+.app-bg {
+  background-color: var(--bg-color);
+}
+
+.draw-header {
+  background-color: var(--main-color);
+  box-shadow: var(--block-box-shadow);
+}
+
+.header-image {
+  width: 10rem;
+  align-self: center;
+  border: solid 7px #fb976c;
+  background-color: #fb976c;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.d-btn-done {
+  margin-left: 2rem;
+}
+
+.color-square {
+  width: 2.1rem;
+  height: 2.1rem;
+  border: solid var(--secondary-color) 2px;
+  border-radius: 7px;
+}
+
+.chosen-color-square {
+  width: 2.1rem;
+  height: 2.1rem;
+  border: inset white 5px;
+  border-radius: 7px;
+}
+
+.color-square:active {
+  border: inset white 4px;
+}
+
+.chosen-color-square {
+  width: 2.1rem;
+  height: 2.1rem;
+  border: solid var(--secondary-color) 2px;
+  border-radius: 7px;
+  box-shadow: 2px 2px 0px 0px #888888;
+}
+
+.color-square:hover {
+  cursor: pointer;
+}
+
+.draw-paper {
+  border: 4px solid var(--main-color);
+  border-radius: 4px;
+  box-shadow: var(--block-box-shadow);
+}
+
+.draw-cursor {
+  cursor: crosshair;
+}
+
+.eraser-cursor {
+  cursor: url(../../assets/square-16.png), auto;
+}
+
+.draw-mode-square {
+  border: solid var(--bg-color) 2px;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.chosen-draw-mode-square {
+  border: solid var(--secondary-color) 2px;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.draw-mode-inside-square {
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 4px;
+  background-color: var(--main-color);
+}
+
+.width-button {
+  border: solid white 0.5px;
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.chosen-width-button {
+  border: solid 2px;
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.width-button:hover {
+  cursor: pointer;
+}
+
+.width-button-size {
+  border: solid 0.5px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.width-change-area {
+  margin-left: 7rem;
+  background-color: var(--main-color);
+  box-shadow: var(--block-box-shadow);
+}
+
+.custom-border-color {
+  border-color: var(--main-color);
+}
+
+.custom-font {
+  font-family: var(--main-font-family);
+  color: var(--secondary-color);
+  font-size: 25px;
+  font-weight: bold;
+  -webkit-text-stroke: 0.5px #102667;
+  text-shadow: 1px 2px 2px #3e4677;
+  text-align: center;
+}
+
+.draw-header-font {
+  font-family: var(--main-font-family);
+  color: var(--secondary-color);
+  font-size: 12px;
+  font-weight: bold;
+  -webkit-text-stroke: 0.5px #102667;
+  text-shadow: 1px 2px 2px #3e4677;
+  text-align: center;
+}
+
+.written-sentence {
+  font-family: var(--main-font-family);
+  text-shadow:
+    0px 0px 2px #000000,
+    0px 0px 2px #000000,
+    0px 0px 3px #000000,
+    0px 0px 3px #000000,
+    2px 2px 2px #000000,
+    2px 2px 2px #000000,
+    0px 0px 4px #000000,
+    0px 0px 4px #000000;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  margin-top: -1rem;
+}

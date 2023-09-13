@@ -1,0 +1,133 @@
+.sg-content {
+  width: 70vw;
+  height: 80vh;
+  border: 4px rgba(29, 29, 27, 0.15) solid;
+  border-radius: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.sg-header {
+  display: flex;
+  align-items: center;
+  height: 20%;
+}
+
+.sg-img-logo {
+  height: 100px;
+  width: 125px;
+  margin: 0 auto;
+}
+
+.sg-center {
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+  width: 100%;
+  justify-content: center;
+}
+
+.sg-left {
+  display: flex;
+  flex-direction: column;
+  height: 95%;
+  width: 60%;
+  border-radius: 10px;
+  background-color: #e7ccb1;
+  margin: 8px;
+}
+
+.sg-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 50%;
+  transform: translateX(-25%);
+  height: 10%;
+  margin-top: 1.5rem;
+}
+
+.sg-left-main {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.sg-img-avatar {
+  height: 40%;
+  width: 40%;
+}
+
+.sg-fill {
+  height: 40%;
+  width: 56%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sg-text {
+  width: 70%;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.sg-input {
+  width: 80%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.sg-left-action {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sg-btn-start {
+  cursor: pointer;
+  margin: 8px;
+  padding: 0px 8px;
+  height: 42px;
+  width: 36%;
+  background-color: #c6a88f;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  font-weight: bold;
+  border-radius: 7px;
+  font-size: 15px;
+  color: #000000;
+  justify-content: center;
+}
+
+.sg-btn-start:hover {
+  background-color: #bf926e;
+}
+
+.sg-btn-start:active {
+  border: white inset;
+}
+
+.sg-icon {
+  margin-right: 8px;
+}
+
+.sg-right {
+  display: flex;
+  flex-direction: column;
+  height: 95%;
+  width: 36%;
+  border-radius: 10px;
+  background-color: #e7ccb1;
+  margin: 8px 0 8px 8px;
+  height: 95%;
+}

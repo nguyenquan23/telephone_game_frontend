@@ -1,0 +1,29 @@
+.ws-main-content {
+  display: flex;
+  flex-direction: column;
+  transform: translateX(30%);
+}
+
+.ws-img-content {
+  max-width: 40%;
+  height: 36%;
+  margin: 8px;
+}
+
+.ws-title {
+  font-weight: bold;
+  margin: 8px;
+  display: flex;
+  transform: translateX(10%);
+}
+
+.ws-1-input {
+  height: 48px;
+  width: 700px;
+  border-radius: 4px;
+  box-shadow: var(--block-box-shadow);
+}
+
+.-ws-app-bg {
+  background-color: var(--bg-color);
+}

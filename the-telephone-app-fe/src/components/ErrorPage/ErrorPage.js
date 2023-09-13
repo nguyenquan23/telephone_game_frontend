@@ -1,0 +1,24 @@
+import imgPageNotFound from "../../assets/page-not-found.png";
+import { BsFillCaretLeftFill } from "react-icons/bs";
+import { useNavigate } from "react-router-dom";
+
+const ErrorPage = () => {
+  const navigate = useNavigate();
+
+  const handleBack = () => {
+    navigate("/");
+  };
+  return (
+    <div class="page-not-found">
+      <img src={imgPageNotFound} alt="" />
+      <div>
+        <button onClick={handleBack}>
+          <BsFillCaretLeftFill className="icon" />
+          BACK TO HOME
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default ErrorPage;

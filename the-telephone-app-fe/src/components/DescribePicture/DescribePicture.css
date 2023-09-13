@@ -1,0 +1,15 @@
+.drawn-picture {
+  width: 49.8rem;
+  height: 21.85rem;
+}
+
+.ws-input {
+  height: 48px;
+  width: 500px;
+  border-radius: 4px;
+  box-shadow: var(--block-box-shadow);
+}
+
+.ms-10rem {
+  margin-left: 10rem;
+}
